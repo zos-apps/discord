@@ -22,7 +22,21 @@
         "height": 600
       },
       "resizable": true
-    }
+    },
+    "about": "Chat and voice communication platform for communities.",
+    "help": [
+      "Join servers to chat",
+      "Click channel to view",
+      "Use + to create messages"
+    ],
+    "docs": "https://zos-apps.github.io/discord",
+    "site": "https://github.com/zos-apps/discord",
+    "features": [
+      "Text channels",
+      "Voice chat",
+      "Direct messages",
+      "Server management"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -55,5 +69,13 @@
     "discord",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }

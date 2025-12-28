@@ -1,56 +1,74 @@
-# 💬 Discord
+# Discord
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/discord/releases)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/discord)
+💬 Chat and voice communication platform for communities.
 
-> Voice, video, and text chat for communities
+[![CI](https://github.com/zos-apps/discord/actions/workflows/ci.yml/badge.svg)](https://github.com/zos-apps/discord/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@zos-apps/discord.svg)](https://www.npmjs.com/package/@zos-apps/discord)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**[Documentation](https://zos-apps.github.io/discord)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
+## About
 
-## Installation
-
-```bash
-npm install github:zos-apps/discord
-```
-
-Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
-
-## Usage
-
-```tsx
-import Discord from '@zos-apps/discord';
-
-function App() {
-  return <Discord />;
-}
-```
+Chat and voice communication platform for communities.
 
 ## Features
 
-- Native zOS window integration
-- Dark mode support
+- Text channels
+- Voice chat
+- Direct messages
+- Server management
 
-- Context menu actions
-- Menu bar integration
+## Installation
 
-## Category
+### From App Store
+Open the **App Store** in zOS and search for "Discord".
 
-**Social**
+### Via npm
+```bash
+npm install @zos-apps/discord
+```
 
-## Permissions
+## Usage
 
-- `network`
-- `audio`
-- `video`
+- Join servers to chat
+- Click channel to view
+- Use + to create messages
 
-## Links
 
-- [Documentation](https://zos-apps.github.io/discord)
-- [GitHub Repository](https://github.com/zos-apps/discord)
-- [Report Issues](https://github.com/zos-apps/discord/issues)
-- [All zOS Apps](https://github.com/zos-apps)
+
+## Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+```
+
+## Documentation
+
+- [User Guide](https://zos-apps.github.io/discord)
+- [API Reference](https://zos-apps.github.io/discord/api)
+- [Changelog](https://github.com/zos-apps/discord/releases)
+
+## Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](https://github.com/zos-apps/discord/blob/main/CONTRIBUTING.md) first.
 
 ## License
 
 MIT © [Hanzo AI](https://hanzo.ai)
+
+---
+
+<p align="center">
+  <a href="https://hanzo.ai">
+    <img src="https://hanzo.ai/logo.svg" alt="Hanzo AI" width="100">
+  </a>
+</p>
+<p align="center">
+  Built with ❤️ by <a href="https://hanzo.ai">Hanzo AI</a>
+</p>
