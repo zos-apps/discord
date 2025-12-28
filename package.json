@@ -36,7 +36,26 @@
       "Voice chat",
       "Direct messages",
       "Server management"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/discord"
+    },
+    "featured": true,
+    "tags": [
+      "social",
+      "communication",
+      "discord"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/discord/issues",
+    "changelog": "https://github.com/zos-apps/discord/releases"
   },
   "scripts": {
     "build": "tsup",
