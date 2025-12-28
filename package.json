@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic/discord",
+  "name": "@zos-apps/discord",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -11,9 +11,16 @@
     "icon": "💬",
     "category": "social",
     "description": "Voice, video, and text chat for communities",
-    "permissions": ["network", "audio", "video"],
+    "permissions": [
+      "network",
+      "audio",
+      "video"
+    ],
     "window": {
-      "defaultSize": { "width": 900, "height": 600 },
+      "defaultSize": {
+        "width": 900,
+        "height": 600
+      },
       "resizable": true
     }
   },
@@ -30,5 +37,23 @@
     "@types/react-dom": "^18.3.0",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
-  }
+  },
+  "description": "Voice, video, and text chat for communities",
+  "homepage": "https://zos-apps.github.io/discord",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/discord.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/discord/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "discord",
+    "macos",
+    "desktop"
+  ]
 }
