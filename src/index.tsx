@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 interface DiscordProps {
   onClose: () => void;
@@ -46,7 +46,7 @@ const mockMessages: Message[] = [
   { id: '4', author: 'Alice', avatar: '👩', content: 'You got this! Let us know if you need help.', time: '2:35 PM' },
 ];
 
-const Discord: React.FC<DiscordProps> = ({ onClose }) => {
+const Discord: React.FC<DiscordProps> = ({ onClose: _onClose }) => {
   const [servers] = useState(mockServers);
   const [channels] = useState(mockChannels);
   const [messages] = useState(mockMessages);
